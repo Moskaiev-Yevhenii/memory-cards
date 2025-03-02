@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rebeccapurple;
+}
+
+body, main {
+    height: 100vh;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 36px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 14px;
+}
+
+.card, .other-side {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(./imgs/icons8-question-mark-60.png);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.other-side {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+.candy-1 {
+    background-image: url(./imgs/candy.png);
+}
+.candy-2 {
+    background-image: url(./imgs/cupcake-choco.png);
+}
+.candy-3 {
+    background-image: url(./imgs/cupcake.png);
+}
+.candy-4 {
+    background-image: url(./imgs/doughnut.png);
+}
+.candy-5 {
+    background-image: url(./imgs/ladoo.png);
+}
